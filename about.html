@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/spiritual-theme.css">
     <link rel="stylesheet" href="css/about-section-enhanced.css">
+    <link rel="stylesheet" href="css/breadcrumb-section-enhanced.css">
 
     
 </head>
@@ -82,22 +83,39 @@
     </header>
     <!-- Header part end-->
 
-    <!-- breadcrumb start-->
-    <section class="breadcrumb breadcrumb_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb_iner text-center">
+    <!-- Enhanced Breadcrumb Section Start -->
+    <section class="breadcrumb breadcrumb_bg position-relative" style="background-image: url('img/breadcrumb_bg.jpg'); background-size: cover; background-position: center; min-height: 220px;">
+        <div class="breadcrumb-overlay" style="position: absolute; inset: 0; background: rgba(187,161,79,0.25);"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="row justify-content-center align-items-center" style="min-height: 220px;">
+                <div class="col-lg-10 mx-auto text-center">
+                    <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <h2>about us</h2>
-                            <p>home <span>//</span>about us</p>
+                            <h2 class="display-4 intro-font mb-2" style="color: #2d2d2d; font-weight: 700;">અમારા વિશે</h2>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center bg-transparent p-0 m-0" style="font-size: 1.1rem;">
+                                    <li class="breadcrumb-item">
+                                        <a href="index.html" class="text-dark intro-font" style="font-weight: 600;">
+                                            <span style="vertical-align: middle;">
+                                                <svg width="20" height="20" fill="#bba14f" viewBox="0 0 24 24" style="margin-right: 4px;">
+                                                    <path d="M10.707 2.293a1 1 0 0 1 1.414 0l9 9a1 1 0 0 1-1.414 1.414L20 12.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-5h-2v5a1 1 0 0 1-1 1H4a2 2 0 0 1-2-2v-7.586l-.707.707A1 1 0 0 1 .293 11.293l9-9z"/>
+                                                </svg>
+                                                હોમ
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumb-item active intro-font" aria-current="page" style="color: #bba14f; font-weight: 700;">
+                                        <span style="margin: 0 8px;">//</span> અમારા વિશે
+                                    </li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- breadcrumb start-->
+    <!-- Enhanced Breadcrumb Section End -->
 
     <!-- Enhanced About Section Start -->
     <section class="about_section py-5">
@@ -207,103 +225,7 @@
         </div>
     </section>
     <!-- Enhanced About Section End -->
- <!-- Service part start-->
- <section class="service_part section_padding">
-    <div class="container">
-        <div class="row align-items-center m-2">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/—Pngtree—indian hindu wedding mandap fire_9016220 1 1 (3).png"
-                            alt="">
-                        <h2 class=" intro-font">હવન
-                        </h2>
-                        <p class="intro-font">અમે શુદ્ધ અને પવિત્ર પર્યાવરણમાં હવન વિધિ યોજીશું, જેમાં વૈદિક
-                            મંત્રોચ્ચાર અને દૈવિક અર્પણ દ્વારા શુભતા અને સકારાત્મક ઉર્જા પ્રસાર થશે.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/Untitled_design-removebg-preview (1) 1 (1).png" alt="">
-                        <h2 class="intro-font">શ્રી સત્યનારાયણ કથા</h2>
-                        <p class="intro-font">અમે શ્રદ્ધા અને ભક્તિભાવ સાથે શ્રી સત્યનારાયણ ભગવાનની કથા યોજીશું,
-                            જેમાં વૈદિક મંત્રોચ્ચાર અને હવન દ્વારા શુભતા અને સુખ-શાંતિની પ્રાપ્તિ થશે.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/tasbih-illustration_960117-8052-removebg-preview 1.png" alt="">
-                        <h2 class="intro-font">ભાગવદ ગીતા પ્રવચન</h2>
-                        <p class="intro-font">અમે ભાગવદ ગીતાનાં શ્લોકો અને તેમનો અર્થ સમજાવી પ્રવચન યોજીશું, જે
-                            જીવનના ધર્મ, કર્મ અને આધ્યાત્મિકતા માટે માર્ગદર્શક બનશે.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/book-with-red-cover_1110-770-removebg-preview 1.png" alt="">
-                        <h2 class="intro-font">શ્રીમદ ભાગવત કથા</h2>
-                        <p class="intro-font"> અમે શાસ્ત્રીય રીતિ અનુસાર શ્રીમદ ભાગવત મહાપુરાણની કથા યોજીશું, જેમાં
-                            શ્રી કૃષ્ણના દિવ્ય ચરિત્રો અને ભક્તિમાર્ગ વિશે વિસ્તૃત પ્રવચન આપવામાં આવશે.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row align-items-center m-2">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/indian-bride-groom-couple-clip-art-hindu-wedding-invitation-card_428817-2288-removebg-preview 1.png"
-                            alt="">
-                        <h2 class="intro-font">લગ્ન સંસ્કાર
-                        </h2>
-                        <p class="intro-font">અમે શાસ્ત્રીય વિધિ પ્રમાણે તમારું લગ્ન સંસ્કાર સંપન્ન કરીશું, જેમાં
-                            અગ્નિ સાક્ષી, સાત ફેરા અને પરંપરાગત રીતિ-રિવાજો સમાવિષ્ટ રહેશે.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/png-clipart-sri-yantra-sacred-geometry-lakshmi-goddess-laxmi-logo-symmetry-thumbnail-removebg-preview 1.png"
-                            alt="">
-                        <h2 class="intro-font">વાસ્તુ શાંતિ હવન</h2>
-                        <p class="intro-font">ગૃહ, દુકાન કે કાર્યસ્થળ માટે વાસ્તુ દોષ નિવારણ હવન યોજીશું, જેનાથી
-                            નકારાત્મક ઉર્જા દૂર થશે અને શાંતિ-સમૃદ્ધિ આવશે.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <i class="fa-solid fa-coins fa-5x"></i>
-                        <h2 class="intro-font">લક્ષ્મી પૂજન</h2>
-                        <p class="intro-font"> દૈવિક કૃપા અને ધનલક્ષ્મી માટે માતા લક્ષ્મી પૂજન અને હવન કરવામાં આવશે,
-                            જેનાથી વૈભવ અને સમૃદ્ધિ પ્રાપ્ત થશે.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_service_part">
-                    <div class="single_service_text">
-                        <img src="img/team/icons/book-with-red-cover_1110-770-removebg-preview 1.png" alt="">
-                        <h2 class="intro-font">શ્રીમદ ભાગવત કથા</h2>
-                        <p class="intro-font">અમે શાસ્ત્રીય રીતિ અનુસાર શ્રીમદ ભાગવત મહાપુરાણની કથા યોજીશું, જેમાં
-                            શ્રી કૃષ્ણના દિવ્ય ચરિત્રો અને ભક્તિમાર્ગ વિશે વિસ્તૃત પ્રવચન આપવામાં આવશે.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- Service part end-->
-
+ 
     <!-- cta_part part start-->
     <section class="cta_area">
         <div class="container">
@@ -412,8 +334,7 @@
                                             <li><a href="#" class="intro-font">મુખ્ય પૃષ્ઠ</a></li>
                                             <li><a href="#" class="intro-font">સેવાઓ</a></li>
                                             <li><a href="#" class="intro-font">સંપર્ક</a></li>
-i><a href="#">Faq</a></li>
- src="js/popper.min.js"></script>
+    </script>
     <!-- bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <!-- easing js -->
