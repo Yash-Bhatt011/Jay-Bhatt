@@ -498,8 +498,10 @@ ul {
 
   /* line 267, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
   .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   /* line 271, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
@@ -582,6 +584,40 @@ ul {
 }
 
 /**************** common css end ****************/
+
+/* Achievement Card css
+============================================================================================ */
+.achievement-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.achievement_item h3 {
+    color: #2d3436;
+    font-weight: bold;
+}
+
+.achievement_item p {
+    color: #636e72;
+    margin-bottom: 0;
+}
+
+.animate__fadeIn {
+    animation-duration: 1s;
+}
+
+.lead {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
 /* Main Button Area css
 ============================================================================================ */
 /* line 3, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_button.scss */
@@ -6417,7 +6453,7 @@ h6 {
 
 /* line 18, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .single-footer-widget p {
-  color: #999999;
+  color: #fff7f7;
   font-size: 14px;
   line-height: 1.8;
 }
@@ -6453,7 +6489,7 @@ h6 {
 
 /* line 39, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .single-footer-widget ul li a {
-  color: #999;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 15px;
@@ -6687,14 +6723,14 @@ h6 {
 
 /* line 204, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .copyright_part_text {
-  border-top: 1px solid #45556a;
+  border-top: 1px solid #FFD700;
   padding-top: 20px;
   margin-top: 95px;
 }
 
 /* line 208, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .copyright_part_text p {
-  color: #777777;
+  color: #fffbfb;
   text-align: left;
 }
 
@@ -6801,7 +6837,7 @@ h6 {
 
 /* line 276, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer_menu ul li a {
-  color: #999999 !important;
+  color: #0c0c0c !important;
   padding: 0px 22px;
 }
 
