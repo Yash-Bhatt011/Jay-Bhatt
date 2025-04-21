@@ -2,6 +2,25 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Anek+Gujarati:wdth,wght@125,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* General responsive styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
 .btn_1 {
   background-image: linear-gradient(to left, #ff7009 0%, #cb6e04fb 49%, #a75c00 100%);
@@ -8588,4 +8607,82 @@ font-variation-settings:
   color: #333; /* Change color if needed */
   text-align: center; /* Align text properly */
   line-height: 1.5; /* Improve readability */
+}
+.video_testimonial {
+  transition: all 0.3s ease;
+}
+.video_testimonial:hover {
+  transform: translateY(-5px);
+}
+.video_testimonial:hover .video_overlay {
+  background: rgba(0,0,0,0.5);
+}
+.video_testimonial:hover .video_play_btn {
+  background: rgba(255,255,255,0.3);
+  width: 80px;
+  height: 80px;
+}
+.youtube-player {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 0;
+}
+
+.youtube-player .thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-size: cover;
+  transition: all 0.2s ease-out;
+}
+
+.youtube-player .thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.youtube-player .thumbnail:hover img {
+  opacity: 1;
+}
+
+.youtube-player .play-button {
+  width: 70px;
+  height: 70px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.youtube-player .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26px;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
 }
